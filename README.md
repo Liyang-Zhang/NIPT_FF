@@ -29,8 +29,9 @@ For GATK HaplotypeCaller results, the parental and maternal GVCF should be merge
 ## Calculating fetal fraction
 
 To obtain fetal fraction in pregnant women's cfDNA, specific informative SNPs are extracted from the SNPs result files. There are two typically situations. The first one is that mathernal genotype is 0/0, and parental genotype is 1/1. The fetal fraction is calculated by the equation below:
+
 $$
-fetal\ fraction = 2 * \overline{AF_p} \\ \overline{AF_P}:\ mean\ allele\ fraction\ of\ parental\ SNPs\ in\ pregnant\ women\ cfDNA
+fetal\ fraction = 2 * \overline{AF_p}
 $$
 
 $$
@@ -38,6 +39,7 @@ $$
 $$
 
 On the other hand, the second situation is that mathernal genotype is 1/1, and parental genotype is 0/0. The fetal fraction is calculated by the following equation:
+
 $$
 fetal\ fraction = 2 * (1 - \overline{AF_M})
 $$
