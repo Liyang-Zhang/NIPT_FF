@@ -1,0 +1,4 @@
+Modeling Parameters: Pi[1-4]: 0.7	0.1	0.1	0.1
+Modeling Parameters: Mu[1-4]: 0.000100911	0.053505	0.445818	0.499324
+Average sequencing depth: 1695.41
+Fetal DNA proportion (%): 10.701
