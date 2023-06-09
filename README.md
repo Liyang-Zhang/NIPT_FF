@@ -49,3 +49,7 @@ $$
 $$
 
 # Another way to calculate fetal fraction
+
+Directly using FetalQuant (https://pubmed.ncbi.nlm.nih.gov/22962347/) to infer fetal fraction based on the SNPs in the maternal cfDNA. It doesn't require the iSNPs information from the parent. 
+
+More details about the usage and interpretation please refer to https://www.cuhk.edu.hk/med/cpy/Research/FetalQuantSD/
