@@ -48,3 +48,4 @@ $$
 \overline{AF_M}:\ mean\ allele\ fraction\ of\ maternal\ SNPs\ in\ pregnant\ women\ cfDNA
 $$
 
+# Another way to calculate fetal fraction
